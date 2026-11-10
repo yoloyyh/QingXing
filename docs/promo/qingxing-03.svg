@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" fill="none">
+  <defs>
+    <linearGradient id="c3bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#F5F7FA"/></linearGradient>
+    <filter id="c3shadow"><feDropShadow dx="0" dy="4" stdDeviation="12" flood-opacity="0.08"/></filter>
+    <filter id="c3card"><feDropShadow dx="0" dy="2" stdDeviation="6" flood-opacity="0.05"/></filter>
+  </defs>
+  <rect width="640" height="420" rx="20" fill="url(#c3bg)" filter="url(#c3shadow)"/>
+  <text x="320" y="30" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="600" fill="#3A4A5C">轻醒 · QingXing — 外观主题</text>
+  <!-- Theme 1: 雾蓝 -->
+  <g transform="translate(30,55)">
+    <rect x="0" y="0" width="180" height="340" rx="14" fill="#F5F7FA" filter="url(#c3card)"/>
+    <text x="90" y="24" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#5A7DA8">雾蓝</text>
+    <!-- Owl -->
+    <g transform="translate(90,110)">
+      <circle cx="0" cy="0" r="38" stroke="#7B9EC7" stroke-width="5" fill="none"/>
+      <ellipse cx="0" cy="4" rx="22" ry="20" fill="#7B9EC7"/>
+      <ellipse cx="0" cy="8" rx="13" ry="11" fill="#A8C4E0"/>
+      <path d="M-15 -18 L-20 -30 L-7 -18 Z" fill="#5A7DA8"/>
+      <path d="M15 -18 L20 -30 L7 -18 Z" fill="#5A7DA8"/>
+      <circle cx="-8" cy="-2" r="7" fill="#FFF"/><circle cx="-7" cy="-2" r="4" fill="#3A4A5C"/><circle cx="-6" cy="-3" r="1.5" fill="#FFF"/>
+      <circle cx="8" cy="-2" r="7" fill="#FFF"/><circle cx="7" cy="-2" r="4" fill="#3A4A5C"/><circle cx="6" cy="-3" r="1.5" fill="#FFF"/>
+      <path d="M-2 5 L2 5 L0 8 Z" fill="#FFB74D"/>
+    </g>
+    <!-- Health ring label -->
+    <text x="90" y="165" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">健康环</text>
+    <!-- Button -->
+    <rect x="30" y="180" width="120" height="32" rx="8" fill="#7B9EC7"/>
+    <text x="90" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#FFF">满血出发</text>
+    <!-- Dock icon -->
+    <text x="90" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">Dock 图标</text>
+    <rect x="65" y="238" width="50" height="50" rx="10" fill="#7B9EC7"/>
+    <ellipse cx="90" cy="258" rx="10" ry="9" fill="#A8C4E0"/>
+    <circle cx="85" cy="254" r="2.5" fill="#3A4A5C"/><circle cx="95" cy="254" r="2.5" fill="#3A4A5C"/>
+    <!-- Color swatch -->
+    <text x="90" y="312" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">配色</text>
+    <rect x="30" y="318" width="16" height="16" rx="4" fill="#7B9EC7"/>
+    <rect x="52" y="318" width="16" height="16" rx="4" fill="#5A7DA8"/>
+    <rect x="74" y="318" width="16" height="16" rx="4" fill="#A8C4E0"/>
+    <rect x="96" y="318" width="16" height="16" rx="4" fill="#3A4A5C"/>
+  </g>
+  <!-- Theme 2: 琥珀棕 -->
+  <g transform="translate(230,55)">
+    <rect x="0" y="0" width="180" height="340" rx="14" fill="#FDF8F3" filter="url(#c3card)"/>
+    <text x="90" y="24" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#BF8C60">琥珀棕</text>
+    <g transform="translate(90,110)">
+      <circle cx="0" cy="0" r="38" stroke="#C4956A" stroke-width="5" fill="none"/>
+      <ellipse cx="0" cy="4" rx="22" ry="20" fill="#C4956A"/>
+      <ellipse cx="0" cy="8" rx="13" ry="11" fill="#D4B898"/>
+      <path d="M-15 -18 L-20 -30 L-7 -18 Z" fill="#A87D58"/>
+      <path d="M15 -18 L20 -30 L7 -18 Z" fill="#A87D58"/>
+      <circle cx="-8" cy="-2" r="7" fill="#FFF"/><circle cx="-7" cy="-2" r="4" fill="#3A4A5C"/><circle cx="-6" cy="-3" r="1.5" fill="#FFF"/>
+      <circle cx="8" cy="-2" r="7" fill="#FFF"/><circle cx="7" cy="-2" r="4" fill="#3A4A5C"/><circle cx="6" cy="-3" r="1.5" fill="#FFF"/>
+      <path d="M-2 5 L2 5 L0 8 Z" fill="#FFB74D"/>
+    </g>
+    <text x="90" y="165" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">健康环</text>
+    <rect x="30" y="180" width="120" height="32" rx="8" fill="#C4956A"/>
+    <text x="90" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#FFF">满血出发</text>
+    <text x="90" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">Dock 图标</text>
+    <rect x="65" y="238" width="50" height="50" rx="10" fill="#C4956A"/>
+    <ellipse cx="90" cy="258" rx="10" ry="9" fill="#D4B898"/>
+    <circle cx="85" cy="254" r="2.5" fill="#3A4A5C"/><circle cx="95" cy="254" r="2.5" fill="#3A4A5C"/>
+    <text x="90" y="312" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">配色</text>
+    <rect x="30" y="318" width="16" height="16" rx="4" fill="#C4956A"/>
+    <rect x="52" y="318" width="16" height="16" rx="4" fill="#A87D58"/>
+    <rect x="74" y="318" width="16" height="16" rx="4" fill="#D4B898"/>
+    <rect x="96" y="318" width="16" height="16" rx="4" fill="#5C4030"/>
+  </g>
+  <!-- Theme 3: 奶咖 -->
+  <g transform="translate(430,55)">
+    <rect x="0" y="0" width="180" height="340" rx="14" fill="#FBFAF7" filter="url(#c3card)"/>
+    <text x="90" y="24" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#A89880">奶咖</text>
+    <g transform="translate(90,110)">
+      <circle cx="0" cy="0" r="38" stroke="#C9B99A" stroke-width="5" fill="none"/>
+      <ellipse cx="0" cy="4" rx="22" ry="20" fill="#C9B99A"/>
+      <ellipse cx="0" cy="8" rx="13" ry="11" fill="#DDD0BC"/>
+      <path d="M-15 -18 L-20 -30 L-7 -18 Z" fill="#A89880"/>
+      <path d="M15 -18 L20 -30 L7 -18 Z" fill="#A89880"/>
+      <circle cx="-8" cy="-2" r="7" fill="#FFF"/><circle cx="-7" cy="-2" r="4" fill="#3A4A5C"/><circle cx="-6" cy="-3" r="1.5" fill="#FFF"/>
+      <circle cx="8" cy="-2" r="7" fill="#FFF"/><circle cx="7" cy="-2" r="4" fill="#3A4A5C"/><circle cx="6" cy="-3" r="1.5" fill="#FFF"/>
+      <path d="M-2 5 L2 5 L0 8 Z" fill="#FFB74D"/>
+    </g>
+    <text x="90" y="165" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">健康环</text>
+    <rect x="30" y="180" width="120" height="32" rx="8" fill="#C9B99A"/>
+    <text x="90" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#FFF">满血出发</text>
+    <text x="90" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">Dock 图标</text>
+    <rect x="65" y="238" width="50" height="50" rx="10" fill="#C9B99A"/>
+    <ellipse cx="90" cy="258" rx="10" ry="9" fill="#DDD0BC"/>
+    <circle cx="85" cy="254" r="2.5" fill="#3A4A5C"/><circle cx="95" cy="254" r="2.5" fill="#3A4A5C"/>
+    <text x="90" y="312" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#7B8EA0">配色</text>
+    <rect x="30" y="318" width="16" height="16" rx="4" fill="#C9B99A"/>
+    <rect x="52" y="318" width="16" height="16" rx="4" fill="#A89880"/>
+    <rect x="74" y="318" width="16" height="16" rx="4" fill="#DDD0BC"/>
+    <rect x="96" y="318" width="16" height="16" rx="4" fill="#5C4A3A"/>
+  </g>
+</svg>
