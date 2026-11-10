@@ -6,6 +6,7 @@
 <p align="center"><strong>认真工作，也记得坐舒服。</strong></p>
 <p align="center">一个住在 Mac 菜单栏里的小伙伴，提醒距离、抬头和起身休息，用健康环陪你满血再出发。</p>
 <p align="center">macOS 14+ · 原生 SwiftUI · 每轮最多 5 秒 · 画面仅本机处理</p>
+<p align="center"><a href="https://github.com/yoloyyh/QingXing/releases/latest/download/QingXing-macOS-arm64.dmg"><strong>下载轻醒 · Apple Silicon Mac</strong></a> · <a href="https://github.com/yoloyyh/QingXing/releases/latest">Release 与备用下载</a></p>
 
 ![轻醒真实主窗口：满血猫头鹰与健康环，配合距离和低头提醒演示](Resources/promo/qingxing-01.svg)
 
@@ -68,11 +69,13 @@
 
 ## 开始使用
 
-1. 打开 `轻醒.app`，从菜单栏进入主界面。可以先试试提醒演示，不需要摄像头。
+1. [下载 DMG 安装包](https://github.com/yoloyyh/QingXing/releases/latest/download/QingXing-macOS-arm64.dmg)，双击打开，把 `轻醒.app` 拖入 `Applications`（应用程序）文件夹，再双击启动。可以先试试提醒演示，不需要摄像头。
 2. 在平时使用的位置坐舒服、面向摄像头，主动点击“坐好啦，记录参考 5 秒”，完成授权和校准，无需测量或输入厘米数。
 3. 开启自动检测，按自己的节奏设置工作与休息时间。之后，让猫头鹰在需要时提醒你。
 
-当前为本机开发版本，支持 **macOS 14 或更新版本**；现有构建面向 **Apple Silicon Mac**，尚未提供经过 Apple 公证的公开安装包。
+安装包支持 **macOS 14 或更新版本的 Apple Silicon Mac（M1 及更新芯片）**，无需安装 Swift、Xcode 或其他依赖。也可以在 [Release 页面](https://github.com/yoloyyh/QingXing/releases/latest) 下载 ZIP，解压后把 `轻醒.app` 移入应用程序文件夹。当前尚未提供 Intel Mac 安装包。
+
+**首次打开：** 当前版本采用项目开发签名，尚未完成 Apple 公证。如果 macOS 阻止打开，请先尝试启动一次，再进入 **系统设置 → 隐私与安全性**，在轻醒的提示旁选择 **仍要打开**，按系统提示确认。之后可以直接双击启动；不需要关闭系统的安全检查。
 
 从源码构建（在项目根目录执行，需要 Swift 6+ Command Line Tools）：
 
@@ -90,9 +93,3 @@ open build/轻醒.app
 ---
 
 **少一点不知不觉的久坐，多几次刚刚好的调整。**
-
-[宣传页 SVG 与界面原图](Resources/promo/) · [宣传素材预览页（用浏览器打开）](Resources/promo/index.html) · [宣传素材包](Resources/promo/轻醒-宣传素材.zip)
-
-宣传页的四页画面已直接展示在本 README 中。需要预览、对照 App 原始界面或打印时，可在 Finder 中双击 `Resources/promo/打开宣传页.command`；也可右键 `Resources/promo/index.html`，选择“打开方式 → Safari / Google Chrome”。SVG 的文字和排版可直接编辑，界面部分嵌入了 App 的原生渲染图。
-
-<sub>宣传图中的界面由当前 App 的 SwiftUI 视图直接渲染，数值与状态为示例，部分卡片为提醒演示；不包含摄像头照片。</sub>
