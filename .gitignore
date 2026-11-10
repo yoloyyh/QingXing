@@ -1,0 +1,5 @@
+.build/
+.signing/
+build/
+.DS_Store
+*.xcuserstate
